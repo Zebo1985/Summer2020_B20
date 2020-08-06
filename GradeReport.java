@@ -36,7 +36,7 @@ public class GradeReport {
         gradeOfF.removeAll(gradeOfD);
         gradeOfF.removeIf(p-> p>59);
         System.out.println("Grade F: "+gradeOfF);
-        System.out.println("=================================================");
+        System.out.println("=================================================");// students grades report
         System.out.println(gradeOfA.size()+" Student made A");
         System.out.println(gradeOfB.size()+" Student made B");
         System.out.println(gradeOfC.size()+" Student made C");
